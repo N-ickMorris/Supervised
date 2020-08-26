@@ -1,27 +1,31 @@
-## Philadelphia Crimes 
-*Multiple output regression problem*
-- crimes.csv *: Number of crimes per week in 3 parts of Philadelphia*
-- crime_features.py *: Generates features and selects features*
-- crime_timeLag.py *: Creates lagged outputs as new features*
-- crime_holt.py *: Builds and tests Holt-Winter's models*
-- crime_lasso.py *: Builds and tests Lasso Regression models*
-- crime_forest.py *: Builds and tests Random Forest models*
+## Computer Prices 
+*Single output regression problem*
+- Computers.csv *: Prices of computers*
+- computers_features.py *: Generates features and selects features*
+- computers_bayes.py *: Builds and tests Bayesian models*
+- computers_forest.py *: Builds and tests Random Forest models*
+- computers_xgboost.py *: Builds and tests Extreme Gradient Boosting Tree models*
 
-## Presidential Election
+## House Prices 
+*Single output regression problem*
+- house.csv *: Prices of houses*
+- house_features.py *: Generates features and selects features*
+- house_lasso.py *: Builds and tests Lasso Regression models*
+- house_bayes.py *: Builds and tests Bayesian models*
+- house_forest.py *: Builds and tests Random Forest models*
+
+## Titanic Survival
 *Single output classification problem*
-- election.csv *: Presidential election results with economic factors*
-- elect_features.py *: Generates features and selects features*
-- elect_timeLag.py *: Creates lagged outputs as new features*
-- elect_knn.py *: Builds and tests k-Nearest Neighbor models*
-- elect_forest.py *: Builds and tests Random Forest models*
-- elect_keras.py *: Builds and tests Neural Network models*
+- titanic.csv *: Whether or not people survived on the titanic*
+- titanic_features.py *: Generates features and selects features*
+- titanic_lasso.py *: Builds and tests Lasso Regression models*
+- titanic_svm.py *: Builds and tests Support Vector Machine models*
+- titanic_keras.py *: Builds and tests Neural Network models*
 
-## Stock Prices
-*Multiple output regression problem*
-- stocks.py *: Daily stock prices for Apple, Amazon, and Dominos and economic factors*
-- stocks_features.py *: Generates features and selects features*
-- stocks_timeLag.py *: Creates lagged outputs as new features*
-- stocks_timeLag_week.py *: Creates lagged (by a week) outputs as new features*
-- stocks_holt.py *: Builds and tests Holt-Winter's models*
-- stocks_lasso.py *: Builds and tests Lasso Regression models*
-- stocks_bayes.py *: Builds and tests Bayesian models*
+## Arrests
+*Single output classification problem*
+- Arrests.py *: Whether or not people were released from their arrest*
+- arrest_features.py *: Generates features and selects features*
+- arrest_knn.py *: Builds and tests k-Nearest Neighbors models*
+- arrest_gaussian.py *: Builds and tests Gaussian Processor models*
+- arrest_forest.py *: Builds and tests Random Forest models*
