@@ -1,6 +1,7 @@
 ## Computer Prices 
 *Single output regression problem*
 - Computers.csv *: Prices of computers*
+- computers_plots.py *: Visualizations of important features*
 - computers_features.py *: Generates features and selects features*
 - computers_bayes.py *: Builds and tests Bayesian models*
 - computers_forest.py *: Builds and tests Random Forest models*
