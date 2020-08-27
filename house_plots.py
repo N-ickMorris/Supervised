@@ -36,7 +36,7 @@ plot(fig)
 
 # plot two variables across categories
 fig = px.density_contour(df, x="SalePrice", y="TotalBsmtSF", marginal_x="histogram", 
-                         marginal_y="histogram", color="PavedDrive")
+                         marginal_y="box", color="PavedDrive")
 plot(fig)
 
 # plot SalePrice across categories
