@@ -9,6 +9,7 @@
 ## House Prices 
 *Single output regression problem*
 - house.csv *: Prices of houses*
+- house_plots.py *: Visualizations of important features*
 - house_features.py *: Generates features and selects features*
 - house_lasso.py *: Builds and tests Lasso Regression models*
 - house_bayes.py *: Builds and tests Bayesian models*
