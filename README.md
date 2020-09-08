@@ -20,6 +20,7 @@
 *Single output classification problem*
 - titanic.csv *: Whether or not people survived on the titanic*
 - titanic_features.py *: Generates features and selects features*
+- titanic_features2.py *: Generates features and selects features*
 - titanic_lasso.py *: Builds and tests Lasso Regression models*
 - titanic_svm.py *: Builds and tests Support Vector Machine models*
 - titanic_keras.py *: Builds and tests Neural Network models*
