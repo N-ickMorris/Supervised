@@ -32,3 +32,11 @@
 - arrest_knn.py *: Builds and tests k-Nearest Neighbors models*
 - arrest_gaussian.py *: Builds and tests Gaussian Processor models*
 - arrest_forest.py *: Builds and tests Random Forest models*
+
+## ANSUR
+*Single output classification problem*
+- ansur.py *: Whether or not a soldier is Male/Female based on body measurements*
+- ansur_features.py *: Generates features and selects features*
+- ansur_lasso.py *: Builds and tests Lasso Regression models*
+- ansur_knn.py *: Builds and tests k-Nearest Neighbors models*
+- ansur_tree.py *: Builds and tests Decision Tree models*
