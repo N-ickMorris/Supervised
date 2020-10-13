@@ -62,7 +62,7 @@ X = nfl_.drop(columns=['boxscore_index', 'date', 'datetime', 'day',
                        'week', 'team', 'year', 'location', 'opponent_abbr'])
 
 # compute wins per team
-wins = Y.groupby("team_year").sum()
+wins = Y.groupby("team_year").mean()
 
 # compute performance statistics per team
 means = X.groupby("team_year").mean()
@@ -90,8 +90,8 @@ pipeline = Pipeline([
     ('scale', MinMaxScaler()),
     # ('model', LassoCV(eps=1e-9, n_alphas=16, n_jobs=-1)),
     # ('model', BayesianRidge()),
-    # ('model', RandomForestRegressor(n_estimators=50, max_depth=10, min_samples_leaf=1, n_jobs=-1)),
-    ('model', MLPRegressor(max_iter=200, hidden_layer_sizes=(128), learning_rate_init=0.001, batch_size=32, activation="relu", solver="adam", learning_rate="adaptive", random_state=42)),
+    ('model', RandomForestRegressor(n_estimators=50, max_depth=8, min_samples_leaf=1, n_jobs=-1, random_state=42)),
+    # ('model', MLPRegressor(max_iter=200, hidden_layer_sizes=(128, 128), learning_rate_init=0.001, batch_size=32, activation="relu", solver="adam", learning_rate="adaptive", random_state=42)),
 ])
 
 # train the model
